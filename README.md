@@ -37,22 +37,22 @@ A simple backend with Node.js REST API built with Express and MongoDB for managi
 
 4. **Add MongoDB connection**
 
-  Update your MongoDB URI in index.js:  
-  mongoose.connect('your-mongodb-uri-here')
+   Update your MongoDB URI in index.js:
+   mongoose.connect('your-mongodb-uri-here')
 
-5. **Run the server**
+6. **Run the server**
 
-  npm start  
-  Server runs on: http://localhost:3000
+   npm start
+   Server runs on: http://localhost:3000
 
 
 ## 🧪 API Endpoints
 
-    GET (Get all products)	/api/products  
-    GET (Get single product)	/api/products/:id  
-    POST (Add a new product)	/api/products  
-    PUT (Update a product)	/api/products/:id  
-    DELETE (Delete a product)	/api/products/:id  
+    GET (Get all products) /api/products  
+    GET (Get single product) /api/products/:id  
+    POST (Add a new product) /api/products  
+    PUT (Update a product) /api/products/:id  
+    DELETE (Delete a product) /api/products/:id  
 
 ---
 
