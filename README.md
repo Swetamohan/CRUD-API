@@ -82,6 +82,6 @@ A simple backend with Node.js REST API built with Express and MongoDB for managi
 
 ## Notes
 
--Uses express.json() middleware for parsing JSON.
--MongoDB must be running locally or use a cloud URI (MongoDB Atlas).
--API tested using Insomnia.
+- Uses express.json() middleware for parsing JSON.
+- MongoDB must be running locally or use a cloud URI (MongoDB Atlas).
+- API tested using Insomnia.
