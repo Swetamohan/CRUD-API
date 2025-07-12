@@ -37,12 +37,12 @@ A simple backend with Node.js REST API built with Express and MongoDB for managi
 
 4. **Add MongoDB connection**
 
-   Update your MongoDB URI in index.js:
+   Update your MongoDB URI in index.js:  
    mongoose.connect('your-mongodb-uri-here')
 
 6. **Run the server**
 
-   npm start
+   npm start  
    Server runs on: http://localhost:3000
 
 
