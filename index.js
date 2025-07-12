@@ -20,6 +20,6 @@ app.get('/', (req,res) =>{
     res.send("Hello from node API server updated yes");
 });
 
-mongoose.connect('mongodb+srv://swetamohann1:DpsctfuuX0x2mS8w@mybackenddb.rg8vnio.mongodb.net/My-Node-API?retryWrites=true&w=majority&appName=MyBackendDB')
+mongoose.connect('your url to mongoDB')
   .then(() => console.log('Connected to DB!'))
   .catch(() => { console.log("Connection failed!"); });
